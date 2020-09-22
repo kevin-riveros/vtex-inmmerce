@@ -1,0 +1,81 @@
+{
+    "vtex.menu@2.x:menu#main-menu-items": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+  
+      "children": [
+        "menu-item#categories",
+        "menu-item#oficial-stores",
+        "menu-item#less-than-69"
+      ]
+    },
+  
+    "menu-item#categories": {
+      "props": {
+        "id": "menu-item-categories",
+        "type": "custom",
+        "iconId": "arrow-back",
+        "highlight": false,
+        "blockClass": ["menu-item-link", "menu-item-categories"],
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "",
+          "text": "Categorías"
+        }
+      },
+      "blocks": []
+    },
+    "menu-item#less-than-69": {
+      "props": {
+        "id": "menu-item-deco-home",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": ["menu-item-link", "menu-item-offers"],
+        "itemProps": {
+          "type": "custom",
+          "href": "/menos-49",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Menos de S/.49"
+        }
+      }
+    },
+
+    "menu-item#oficial-stores": {
+      "props": {
+        "id": "menu-item-oficial-stores",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": ["menu-item-link", "menu-item-cyberdays"],
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas-oficiales",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Tiendas Oficiales"
+        }
+      }
+    },
+  
+    "menu-item#my-account-mobile": {
+      "props": {
+        "id": "menu-item-my-account-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": ["menu-item-link", "menu-item-my-account-mobile"],
+        "itemProps": {
+          "type": "internal",
+          "href": "/account",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "MI CUENTA"
+        }
+      }
+    }
+  }

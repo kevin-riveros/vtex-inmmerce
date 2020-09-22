@@ -1,0 +1,78 @@
+{
+    "search-result-layout#brand": {
+        "blocks": [
+            "search-result-layout.desktop#brand",
+            "search-result-layout.mobile#brand",
+            "search-not-found-layout"
+        ],
+        "props": {
+            "__unstableProductOriginVtex": true,
+            "blockClass": "search-result-layout"
+        }
+    },
+
+    "search-result-layout.desktop#brand": {
+        "children": [
+            "flex-layout.row#brand-banner",
+            "flex-layout.row#searchbread",
+            "image#brand-image-1",
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#result#brand"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "maxItemsPerPage": 16,
+            "hideUnavailableItems": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            },
+            "__unstableProductOriginVtex": true,
+            "blockClass": "search-desktop-brand"
+        }
+    },
+
+    "image#brand-image-1": {
+        "props": {
+            "src": "/"
+        }
+    },
+
+    "flex-layout.row#result#brand": {
+        "children": ["flex-layout.col#filterBrand","flex-layout.col#content"],
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#filterBrand": {
+        "children": [
+          "filter-navigator.v3"
+        ],
+        "props": {
+          "blockClass": "filterCol"
+        }
+      },
+
+    "search-result-layout.mobile#brand": {
+        "children": [
+            "flex-layout.row#brand-banner",
+            "flex-layout.row#searchinfomobile",
+            "flex-layout.row#searchbread",
+            "image#brand-image-1",
+            "flex-layout.row#productCountMobile",
+            "flex-layout.row#contentmobile",
+            "flex-layout.row#fetchmore"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "__unstableProductOriginVtex": true,
+            "mobileLayout": {
+                "mode1": "small",
+                "mode2": "normal"
+            }
+        }
+    }
+}

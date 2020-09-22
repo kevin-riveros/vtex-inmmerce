@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#brand-banner": {
+        "children": [
+            "flex-layout.col#brand-image-responsive-container"
+        ],
+        "props": {
+            "blockClass": "brand-banner"
+        }
+    },
+    "flex-layout.col#brand-image-responsive-container": {
+        "props": {
+            "blockClass": "image-responsive-container"
+        },
+        "children": [
+            "responsive-layout.desktop#brand-image-desktop",
+            "responsive-layout.tablet#brand-image-tablet",
+            "responsive-layout.phone#brand-image-phone"
+        ]
+    },
+    "responsive-layout.desktop#brand-image-desktop": {
+        "children": [
+            "image#brand-image-banner-desktop"        
+        ]
+    },
+    "image#brand-image-banner-desktop": {
+        "props": {
+            "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1597968527760-2050x430.png",
+            "blockClass": ["image-banner"]
+        }
+    },
+    "responsive-layout.tablet#brand-image-tablet": {
+        "children": [
+            "image#brand-image-banner-tablet"        
+        ]
+    },
+    "image#brand-image-banner-tablet": {
+        "props": {
+            "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1597968527760-2050x430.png",
+            "blockClass": ["image-banner"]
+        }
+    },
+    "responsive-layout.phone#brand-image-phone": {
+        "children": [
+            "image#brand-image-banner-phone"        
+        ]
+    },
+    "image#brand-image-banner-phone": {
+        "props": {
+            "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1597968533961-768x790.png",
+            "blockClass": ["image-banner-phone"]
+        }
+    }
+}

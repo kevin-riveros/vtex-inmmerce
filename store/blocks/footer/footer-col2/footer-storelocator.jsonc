@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#store-locator-link": {
+    "props": {
+      "blockClass": "store-locator-link"
+    },
+    "children": [
+      "rich-text#store-locator-link",
+      "rich-text#store-locator-link-2"
+    ]
+  },
+
+  "rich-text#store-locator-link": {
+    "props": {
+      "blockClass": "store-locator-link",
+      "text": "[Encuentra el Real plaza \n más cercano](/nuestras-tiendas)"
+    }
+  },
+
+  "rich-text#store-locator-link-2": {
+    "props": {
+      "blockClass": "store-locator-link-2",
+      "text": "[Encuentra el Real plaza más cercano](/nuestras-tiendas)"
+    }
+  }
+}

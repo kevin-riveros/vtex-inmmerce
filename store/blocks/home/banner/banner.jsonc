@@ -1,0 +1,28 @@
+{
+    "carousel#home": {
+        "props": {
+          "autoplay": true,
+          "autoplaySpeed": 7,
+          "banners": [
+            {
+              "image": "https://cdn11.bigcommerce.com/s-r69yc54oxa/product_images/uploaded_images/hi-fi-banner.jpg?t=1559940885&_ga=2.64751340.2143082242.1560178722-331715199.1520986463",
+              "tabletImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489969440-628x400-sfera.jpg",
+              "mobileImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490366632-768x480-sfera.jpg"
+            },
+            {
+              "image": "https://cdn11.bigcommerce.com/s-r69yc54oxa/product_images/uploaded_images/molded-banner.jpg?t=1552328763&_ga=2.218800282.204539565.1552316432-331715199.1520986463",
+              "tabletImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1600625099817-B_BANNER-PRINCIPAL_TABLET.jpg",
+              "mobileImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1600625104002-B_BANNER-PRINCIPAL_MOBILE.jpg"
+            },
+            {
+              "image": "https://cdn11.bigcommerce.com/s-r69yc54oxa/product_images/uploaded_images/air-pods-banner-new.jpg?t=1573725838&_ga=2.125195146.1472255719.1573647841-726422786.1568446974",
+              "tabletImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1600625159400-524x216-ESTEELAUDER-TABLET.jpg",
+              "mobileImage": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1600625134610-720x295-ESTEELAUDER-MOBILE.jpg"
+            }
+          ],
+          "height": 720,
+          "showArrows": true,
+          "showDots": true
+        }
+      }
+}

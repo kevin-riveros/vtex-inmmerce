@@ -1,0 +1,50 @@
+{
+  "rich-text#contact-title": {
+    "props": {
+      "blockClass": ["contact-text", "contact-title"],
+      "text": "CONTÁCTANOS"
+    }
+  },
+
+  "rich-text#email-title": {
+    "props": {
+      "blockClass": ["contact-text", "email-title"],
+      "text": "ESCRÍBENOS"
+    }
+  },
+
+  "rich-text#contact-email": {
+    "props": {
+      "blockClass": ["contact-text", "contact-email"],
+      "text": "servicioalcliente@realplazago.com"
+    }
+  },
+
+  "rich-text#phone-title": {
+    "props": {
+      "blockClass": ["contact-text", "phone-title"],
+      "text": "LLÁMANOS"
+    }
+  },
+
+  "rich-text#contact-phone": {
+    "props": {
+      "blockClass": ["contact-text", "contact-phone"],
+      "text": "(1) 601-4000"
+    }
+  },
+
+  "rich-text#contact-whatsapp": {
+    "props": {
+      "blockClass": ["contact-text", "contact-whatsapp"],
+      "text": "De lunes a sábado"
+    }
+  },
+
+  "rich-text#contact-sede": {
+    "props": {
+      "blockClass": ["contact-text", "contact-sede"],
+      "text": "de 9:00am a 7:00pm domingos y feriados de 9:00am a 3:00pm"
+    }
+  }
+}

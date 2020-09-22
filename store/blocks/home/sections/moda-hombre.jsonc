@@ -1,0 +1,105 @@
+{
+    "responsive-layout.desktop#home--container--moda-hombre": {
+      "children": [
+        "flex-layout.row#home--row--banner-tablet--moda-hombre",
+        "flex-layout.row#home--row--carrousel--moda-hombre"
+      ]
+    },
+    "responsive-layout.tablet#home--container--moda-hombre": {
+      "children": [
+        "flex-layout.row#home--row--banner-tablet--moda-hombre",
+        "flex-layout.row#home--row--carrousel--moda-hombre"
+      ]
+    },
+    "responsive-layout.phone#home--container--moda-hombre": {
+      "children": [
+        "flex-layout.row#home--row--banner-phone--moda-hombre",
+        "flex-layout.row#home--row--carrousel--moda-hombre"
+      ]
+    },
+  
+    "flex-layout.row#home--row--title--moda-hombre": {
+      "props": {
+        "blockClass": [
+          "shelf-title",
+          "container--title--moda-hombre",
+          "row--title--moda-hombre"
+        ]
+      },
+      "children": ["rich-text#home--row--titletext--moda-hombre"]
+    },
+    "rich-text#home--row--titletext--moda-hombre": {
+      "props": {
+        "text": "Moda Hombre",
+        "blockClass": [
+          "st",
+          "shelf-title-text"
+        ]
+      }
+    },
+  
+    "flex-layout.row#home--row--banner-tablet--moda-hombre": {
+      "props": {
+        "blockClass": [
+          "one-banners",
+          "section-home--moda-hombre"
+        ]
+      },
+      "children": [
+        "image#home--image--banner-tablet--moda-hombre"
+      ]
+    },
+    "flex-layout.row#home--row--banner-phone--moda-hombre": {
+      "props": {
+        "blockClass": [
+          "one-banners",
+          "section-home--moda-hombre"
+        ]
+      },
+      "children": [
+        "image#home--image--banner-phone--moda-hombre"
+      ]
+    },
+    "image#home--image--banner-tablet--moda-hombre": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/e6ebc9bc-9f4d-4868-968a-2fcedfb6bc8f___b3cc33fea170619e28e804a93d6e0994.jpg",
+        "blockClass": [
+          "home-banner",
+          "one-banner"
+        ]
+      }
+    },
+    "image#home--image--banner-phone--moda-hombre": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex/assets-builder/realplaza.realplaza-theme/3.43.33/moda-hombre-mobile___14d75b243f1418283496e4d8a0856eca.jpg",
+        "blockClass": [
+          "home-banner",
+          "one-banner"
+        ]
+      }
+    },
+    "flex-layout.row#home--row--carrousel--moda-hombre": {
+      "props": {
+        "blockClass": [
+          "shelf",
+          "section-salud-bienestar"
+        ]
+      },
+      "children": [
+        "list-context.product-list#home--products--carrousel--moda-hombre"
+      ]
+    },
+    "list-context.product-list#home--products--carrousel--moda-hombre": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#home-products-desktop"
+      ],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "maxItems": 15
+      }
+    }
+  }
+  

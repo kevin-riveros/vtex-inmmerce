@@ -1,0 +1,130 @@
+{
+  "flex-layout.row#template-site-top-banner-container": {
+    "props": {
+      "blockClass": "template-site-top-banner"
+    },
+    "children": ["flex-layout.col#template-site-top-banner"]
+  },
+
+  "flex-layout.col#template-site-top-banner": {
+    "props": {
+      "blockClass": "template-site-top-banner-responsive"
+    },
+    "children": [
+      "responsive-layout.desktop#template-site-top-banner-desktop",
+      "responsive-layout.tablet#template-site-top-banner-tablet",
+      "responsive-layout.phone#template-site-top-banner-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#template-site-top-banner-desktop": {
+    "props": {
+      "blockClass": "template-site-responsive-desktop"
+    },
+    "children": [
+      "flex-layout.row#template-site-desktop"
+    ]
+  },
+
+  "flex-layout.row#template-site-desktop": {
+    "props": {
+      "blockClass": "template-site-view-desktop"
+    },
+    "children": [
+        "image#template-site-top-logo-desktop",
+        "image#template-site-top-banner-desktop"
+      ]
+  },
+
+  "image#template-site-top-logo-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598483937401-496x600-sfera_desktop.jpg",
+      "blockClass": ["template-site-top-logo"]
+    }
+  },
+
+  "image#template-site-top-banner-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598483945721-1400x600-sfera.jpg",
+      "blockClass": ["template-site-top-banner"]
+    }
+  },
+
+  "responsive-layout.tablet#template-site-top-banner-tablet": {
+    "props": {
+      "blockClass": "template-site-responsive-tablet"
+    },
+    "children": [
+      "flex-layout.row#template-site-tablet"
+    ]
+  },
+
+  "flex-layout.row#template-site-tablet": {
+    "props": {
+      "blockClass": "template-site-view-tablet"
+    },
+    "children": [
+        "image#template-site-top-logo-tablet",
+        "image#template-site-top-banner-tablet"
+      ]
+  },
+
+  "image#template-site-top-logo-tablet": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489956168-387x400-sfera_tablet.jpg",
+      "blockClass": "template-site-top-logo"
+    }
+  },
+
+  "image#template-site-top-banner-tablet": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489969440-628x400-sfera.jpg",
+      "blockClass": ["template-site-top-banner"]
+    }
+  },
+
+  "responsive-layout.phone#template-site-top-banner-mobile": {
+    "props": {
+      "blockClass": "template-site-responsive-mobile"
+    },
+    "children": [
+      "flex-layout.row#template-site-mobile"
+    ]
+  },
+
+  "flex-layout.row#template-site-mobile": {
+    "props": {
+      "blockClass": "template-site-view-mobile"
+    },
+    "children": [
+        "image#template-site-top-logo-mobile",
+        "image#template-site-top-banner-mobile"
+      ]
+  },
+
+  "image#template-site-top-logo-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489956168-387x400-sfera_tablet.jpg",
+      "blockClass": "template-site-top-logo"
+    }
+  },
+
+  "image#template-site-top-banner-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490366632-768x480-sfera.jpg",
+      "blockClass": "template-site-top-banner"
+    }
+  }
+}

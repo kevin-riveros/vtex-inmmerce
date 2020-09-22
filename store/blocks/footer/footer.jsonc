@@ -1,0 +1,48 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": "footer"
+    },
+    "children": [
+      "flex-layout.row#col-1",
+      "flex-layout.row#col-3"
+    ]
+  },
+
+  "footer-layout.mobile": {
+    "props": {
+      "blockClass": "footer"
+    },
+    "children": [
+      "flex-layout.row#col-1-mobile",
+      "flex-layout.row#col-3"
+    ]
+  },
+
+  "flex-layout.row#col-1": {
+    "props": {
+      "blockClass": "container-col-1",
+      "marginBottom": 2
+    },
+    "children": ["flex-layout.col#contact-us", "flex-layout.col#links"]
+  },
+
+  "flex-layout.row#col-3": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-col-3"
+    },
+    "children": ["rich-text#copyright"]
+  },
+
+  "flex-layout.row#col-1-mobile": {
+    "props": {
+      "blockClass": "col-1-mobile"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-menu"]
+  }
+}

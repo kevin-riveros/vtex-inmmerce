@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#desktop-search": {
+    "props": {
+      "blockClass": [
+        "main-header",
+        "main-search"
+      ],
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#first-search",
+      "flex-layout.row#second-search"
+    ]
+  },
+  "flex-layout.row#first-search": {
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": ["first-search"]
+    }
+  },
+  "flex-layout.row#second-search": {
+    "children": [
+      "flex-layout.row#cart",
+      "flex-layout.row#login"
+    ],
+    "props": {
+      "blockClass": ["second-search"]
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1600793833446-logo.PNG",
+      "width": "250",
+      "height": "90"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "iconClasses": "search-icon",
+      "placeholder": "¿Qué estás buscando?"
+    }
+  },
+  "flex-layout.row#login": {
+    "children": [
+      "login"
+    ],
+    "props": {
+      "blockClass": "flex-login"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "accountOptionLinks": [
+        {
+          "label": "Mi Perfil",
+          "path": "/account#/profile",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Direcciones",
+          "path": "/account#/addresses",
+          "cssClass": "profile-link"
+        },
+        {
+          "label": "Mis Pedidos",
+          "path": "/account#/orders",
+          "cssClass": "profile-link"
+        }
+      ],
+      "emailPlaceholder": "Ingresa tu email",
+      "optionsTitle": "Elige una de las opciones para confirmar tu identidad",
+      "accessCodeTitle": "Ingresa tu correo electrónico para enviarte tu código de acceso"
+    }
+  },
+  "flex-layout.row#cart": {
+    "children": [
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "minicart-v2"
+    }
+  }
+}

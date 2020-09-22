@@ -1,0 +1,105 @@
+{
+    "responsive-layout.desktop#home--container--tecnologia": {
+      "children": [
+        "flex-layout.row#home--row--banner-tablet--tecnologia",
+        "flex-layout.row#home--row--carrousel--tecnologia"
+      ]
+    },
+    "responsive-layout.tablet#home--container--tecnologia": {
+      "children": [
+        "flex-layout.row#home--row--banner-tablet--tecnologia",
+        "flex-layout.row#home--row--carrousel--tecnologia"
+      ]
+    },
+    "responsive-layout.phone#home--container--tecnologia": {
+      "children": [
+        "flex-layout.row#home--row--banner-phone--tecnologia",
+        "flex-layout.row#home--row--carrousel--tecnologia"
+      ]
+    },
+  
+    "flex-layout.row#home--row--title--tecnologia": {
+      "props": {
+        "blockClass": [
+          "shelf-title",
+          "container--title--tecnologia",
+          "row--title--tecnologia"
+        ]
+      },
+      "children": ["rich-text#home--row--titletext--tecnologia"]
+    },
+    "rich-text#home--row--titletext--tecnologia": {
+      "props": {
+        "text": "Tecnologia",
+        "blockClass": [
+          "st",
+          "shelf-title-text"
+        ]
+      }
+    },
+  
+    "flex-layout.row#home--row--banner-tablet--tecnologia": {
+      "props": {
+        "blockClass": [
+          "one-banners",
+          "section-home--tecnologia"
+        ]
+      },
+      "children": [
+        "image#home--image--banner-tablet--tecnologia"
+      ]
+    },
+    "flex-layout.row#home--row--banner-phone--tecnologia": {
+      "props": {
+        "blockClass": [
+          "one-banners",
+          "section-home--tecnologia"
+        ]
+      },
+      "children": [
+        "image#home--image--banner-phone--tecnologia"
+      ]
+    },
+    "image#home--image--banner-tablet--tecnologia": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/6641b861-49bf-4ac3-88c4-17a3eacb0647___6f9cf343e39da887a76a23005663db1e.jpg",
+        "blockClass": [
+          "home-banner",
+          "one-banner"
+        ]
+      }
+    },
+    "image#home--image--banner-phone--tecnologia": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex/assets-builder/realplaza.realplaza-theme/3.43.33/banner-tecnologia-mobile___fcb9bc3b6622d94edccafbcdf47cb9db.jpg",
+        "blockClass": [
+          "home-banner",
+          "one-banner"
+        ]
+      }
+    },
+    "flex-layout.row#home--row--carrousel--tecnologia": {
+      "props": {
+        "blockClass": [
+          "shelf",
+          "section-salud-bienestar"
+        ]
+      },
+      "children": [
+        "list-context.product-list#home--products--carrousel--tecnologia"
+      ]
+    },
+    "list-context.product-list#home--products--carrousel--tecnologia": {
+      "blocks": [
+        "product-summary.shelf"
+      ],
+      "children": [
+        "slider-layout#home-products-desktop"
+      ],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "maxItems": 15
+      }
+    }
+  }
+  

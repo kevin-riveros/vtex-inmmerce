@@ -1,0 +1,251 @@
+{
+  "vtex.menu@2.x:menu#customer-service": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#test-title",
+      "menu-item#test1",
+      "menu-item#test2",
+      "menu-item#terms",
+      "menu-item#policy"
+    ]
+  },
+
+  "menu-item#test-title": {
+    "props": {
+      "id": "menu-item-test-title",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SERVICIO AL CLIENTE"
+      }
+    }
+  },
+
+  "menu-item#test1": {
+    "props": {
+      "id": "menu-item-test1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "/como-comprar-en-realplaza-go",
+        "noFollow": false,
+        "text": "¿Cómo comprar en Real Plaza Go?"
+      }
+    }
+  },
+
+  "menu-item#test2": {
+    "props": {
+      "id": "menu-item-test2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+
+  "menu-item#terms": {
+    "props": {
+      "id": "menu-item-test4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+
+  "menu-item#policy": {
+    "props": {
+      "id": "menu-item-test4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidad",
+        "noFollow": false,
+        "text": "Política de Privacidad"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#special-services": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#test-title-2",
+      "menu-item#selling",
+      "menu-item#about-us-item"
+    ]
+  },
+
+  "menu-item#test-title-2": {
+    "props": {
+      "id": "menu-item#test-title-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SECCIONES"
+      }
+    }
+  },
+
+  "menu-item#selling": {
+    "props": {
+      "id": "menu-item-selling",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "external",
+        "href": "https://realplazago.pe/sellers",
+        "noFollow": false,
+        "text": "Vende en Real Plaza Go"
+      }
+    }
+  },
+
+  "menu-item#about-us-item": {
+    "props": {
+      "id": "menu-item-about-us-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": false,
+        "text": "Nosotros"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#fast-links": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#test-title-3",
+      "flex-layout.col#social-links",
+      "menu-item#test-title-pay",
+      "image#pay-icons",
+      "menu-item#book"
+    ]
+  },
+
+  "menu-item#test-title-3": {
+    "props": {
+      "id": "menu-item#test-title-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "test-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SÍGUENOS"
+      }
+    }
+  },
+
+  "menu-item#test-title-pay": {
+    "props": {
+      "id": "menu-item#test-title-pay",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["test-title", "test-title-pay"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "MEDIOS DE PAGO"
+      }
+    }
+  },
+
+  "image#pay-icons": {
+    "props": {
+      "src": "/arquivos/light-cards-2.png",
+      "blockClass": "footer-icon-pay"
+    }
+  },
+
+  "menu-item#book": {
+    "props": {
+      "id": "menu-item-book",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["test-link", "book-r"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/libro-de-reclamaciones",
+        "noFollow": false,
+        "text": "Libro de Reclamaciones"
+      }
+    }
+  },
+
+  "flex-layout.col#social-links": {
+    "props": {
+      "blockClass": "social-links"
+    },
+    "children": ["social-networks"]
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/RealPlaza"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/Real_Plaza"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/RealPlazaPeru"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/realplaza"
+        }
+      ]
+    }
+  }
+}

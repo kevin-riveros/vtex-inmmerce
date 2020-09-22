@@ -1,0 +1,24 @@
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf) {
+    background: transparent;
+    left: -10px !important;
+    color: #40a8c4 !important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
+    background: transparent;
+    right: -10px !important;
+    color: #40a8c4 !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf) {
+    bottom: -20px !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf) {
+    height: 0.8rem !important;
+    width: 0.8rem !important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background: #40a8c4 !important;
+}

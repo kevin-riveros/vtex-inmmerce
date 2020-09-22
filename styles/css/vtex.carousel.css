@@ -1,0 +1,57 @@
+.containerImg {
+    background-color: #F0F0F0;
+}
+
+.dot {
+    background-color: #FFF;
+    box-shadow: 0 0 5px #696969;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+}
+
+.activeDot {
+    height: 16px !important;
+    width: 16px !important;
+    margin: 0 10px;
+    background-color: #7300E0;
+}
+
+.arrow .caretIcon {
+    color: #FFF;
+}
+
+.arrowsContainer {
+    margin-top: -15px;
+    display: flex !important;
+    align-items: flex-end;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .arrowsContainer {
+        margin-top: 0;
+        align-items: center;
+    }
+}
+
+
+.arrowsContainerWrapper .arrowsContainer{
+    max-width: 100% !important;
+}
+
+.arrow.arrowLeft {
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px 15px;
+    margin-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+.arrow.arrowRight {
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px 15px;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

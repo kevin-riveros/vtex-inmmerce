@@ -1,0 +1,125 @@
+{
+
+    "condition-layout.product#size-guide": {
+        "children": [
+            "condition.product#size-guide-men",
+            "condition.product#size-guide-women"
+        ]
+    },
+
+    "condition.product#size-guide-men": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "categoryTree",
+                    "verb": "contains",
+                    "object": "97"
+                }
+            ]
+        },
+        "children": ["modal-trigger#size-guide-men"]
+    },
+
+    "condition.product#size-guide-women": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "categoryTree",
+                    "verb": "contains",
+                    "object": "124"
+                }
+            ]
+        },
+        "children": ["modal-trigger#size-guide-women"]
+    },
+
+
+    /* ################# ########################## */
+    /* ################# MEN SIZE GUIDE ########### */
+    /* ################# ########################## */
+
+    "modal-trigger#size-guide-men": {
+        "children": [
+            "rich-text#size-guide",
+            "modal-layout#size-guide-men"
+        ]
+    },
+    "rich-text#size-guide": {
+        "props": {
+            "blockClass": "size-guide-trigger",
+            "text": "Guía de tallas"
+        }
+    },
+    "modal-layout#size-guide-men": {
+        "props": {
+            "blockClass": "size-guide-layout"
+        },
+        "children": [
+            "modal-header#size-guide",
+            "responsive-layout.desktop#size-guide-men",
+            "responsive-layout.tablet#size-guide-men",
+            "responsive-layout.phone#size-guide-men"
+        ]
+    },
+    "modal-header#size-guide": {
+        "props": {
+            "showCloseButton": true
+        }
+    },
+    "responsive-layout.desktop#size-guide-men": {
+        "children": [
+            "image#size-guide-desktop"
+        ]
+    },
+    "image#size-guide-desktop": {
+        "props": {
+            "src": "/arquivos/ids/498561"
+        }
+    },
+
+    "responsive-layout.tablet#size-guide-men": {
+        "children": [
+            "image#size-guide-tablet"
+        ]
+    },
+    "image#size-guide-tablet": {
+        "props": {
+            "src": "/arquivos/ids/498562"
+        }
+    },
+
+    "responsive-layout.phone#size-guide-men": {
+        "children": [
+            "image#size-guide-phone"
+        ]
+    },
+    "image#size-guide-phone": {
+        "props": {
+            "src": "/arquivos/ids/498563"
+        }
+    },
+
+
+    /* ################# ########################## */
+    /* ############### WOMEN SIZE GUIDE ########### */
+    /* ################# ########################## */
+
+    "modal-trigger#size-guide-women": {
+        "children": [
+            "rich-text#size-guide",
+            "modal-layout#size-guide-women"
+        ]
+    },
+
+    "modal-layout#size-guide-women": {
+        "props": {
+            "blockClass": "size-guide-layout"
+        },
+        "children": [
+            "modal-header#size-guide",
+            "responsive-layout.desktop#size-guide-men",
+            "responsive-layout.tablet#size-guide-men",
+            "responsive-layout.phone#size-guide-men"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "sticky-layout#desktop-menu": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop-search",
+      "flex-layout.row#desktop-menu"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#newsletter": {
+    "props": {
+      "blockClass": "newsletter"
+    },
+    "children": ["newsletter"]
+  },
+  "newsletter": {
+    "props": {
+      "label": "Entérate de nuestras promociones y más",
+      "placeholder": "Escribe tu email"
+    }
+  }
+}

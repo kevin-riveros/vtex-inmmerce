@@ -1,0 +1,12 @@
+{
+  "store.custom#template-site": {
+    "props": {
+        "blockClass": "template-site-container"
+      },
+    "blocks": [
+      "flex-layout.row#template-site-top-banner-container",
+      "flex-layout.row#template-site-collage",
+      "tab-layout#template-site-shelf"
+    ]
+  }
+}

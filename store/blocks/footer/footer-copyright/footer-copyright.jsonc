@@ -1,0 +1,8 @@
+{
+  "rich-text#copyright": {
+    "props": {
+      "text": "Todos los derechos reservados Real Plaza Go | Empowered by ![]() ![]()",
+      "blockClass": "copyright"
+    }
+  }
+}

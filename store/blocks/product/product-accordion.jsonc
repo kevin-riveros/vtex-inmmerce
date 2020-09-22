@@ -1,0 +1,104 @@
+{
+    "vtex.menu@2.x:menu#product-description": {
+        "props": {
+            "experimentalOptimizeRendering": true,
+            "blockClass": "accordion-product-description"
+        },
+
+        "children": [
+            "menu-item#product-description",
+            "menu-item#product-specifications"
+        ]
+    },
+
+    "menu-item#product-description": {
+        "props": {
+            "id": "menu-item-product-description",
+            "type": "custom",
+            "iconId": "arrow-back",
+            "highlight": false,
+            "blockClass": ["menu-item-link", "menu-item-product-description"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Descripción del producto"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#product-description"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#product-description": {
+        "props": {
+            "blockClass": "accordion-product-description"
+        },
+        "children": [
+            "flex-layout.row#product-description"
+        ]
+    },
+
+    "flex-layout.row#product-description": {
+        "props": {
+            "marginBottom": 7
+        },
+        "children": ["product-description"]
+    },
+
+
+
+
+    "menu-item#product-specifications": {
+        "props": {
+            "id": "menu-item-product-specifications",
+            "type": "custom",
+            "iconId": "arrow-back",
+            "highlight": false,
+            "blockClass": ["menu-item-link", "menu-item-product-specifications"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Especificaciones del producto"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#product-specifications"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#product-specifications": {
+        "props": {
+            "blockClass": "accordion-product-description"
+        },
+        "children": [
+            "flex-layout.row#product-specifications"
+        ]
+    },
+
+    "flex-layout.row#product-specifications": {
+        "props": {
+            "marginBottom": 7
+        },
+        "children": ["product-specifications"]
+    },
+
+    "product-specifications": {
+        "props": {
+            "collapsible": "never",
+            "hiddenSpecifications": [
+                "Descripción"
+            ],
+            "blockClass": "product-specifications"
+        }
+    },
+
+
+
+    "flex-layout.row#product-reviews": {
+        "props": {
+            "marginBottom": 7,
+            "blockClass": "product-reviews"
+        },
+        "children": ["product-reviews"]
+    }
+}

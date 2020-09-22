@@ -1,0 +1,31 @@
+{
+  "flex-layout.col#contact-us": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "rich-text#contact-title",
+      "rich-text#phone-title",
+      "rich-text#contact-phone",
+      "rich-text#contact-whatsapp",
+      "rich-text#contact-sede",
+      "rich-text#email-title",
+      "rich-text#contact-email"
+    ]
+  },
+
+  "flex-layout.col#links": {
+    "props": {
+      "width": "80%",
+      "blockClass": "links"
+    },
+    "children": ["flex-layout.row#links"]
+  },
+
+  "flex-layout.row#links": {
+    "children": [
+      "vtex.menu@2.x:menu#special-services",
+      "vtex.menu@2.x:menu#fast-links"
+    ]
+  }
+}

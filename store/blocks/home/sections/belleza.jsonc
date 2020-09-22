@@ -1,0 +1,104 @@
+{
+  "responsive-layout.desktop#home--container--belleza": {
+    "children": [
+      "flex-layout.row#home--row--banner-tablet--belleza",
+      "flex-layout.row#home--row--carrousel--belleza"
+    ]
+  },
+  "responsive-layout.tablet#home--container--belleza": {
+    "children": [
+      "flex-layout.row#home--row--banner-tablet--belleza",
+      "flex-layout.row#home--row--carrousel--belleza"
+    ]
+  },
+  "responsive-layout.phone#home--container--belleza": {
+    "children": [
+      "flex-layout.row#home--row--banner-phone--belleza",
+      "flex-layout.row#home--row--carrousel--belleza"
+    ]
+  },
+
+  "flex-layout.row#home--row--title--belleza": {
+    "props": {
+      "blockClass": [
+        "shelf-title",
+        "container--title--belleza",
+        "row--title--belleza"
+      ]
+    },
+    "children": ["rich-text#home--row--titletext--belleza"]
+  },
+  "rich-text#home--row--titletext--belleza": {
+    "props": {
+      "text": "Belleza",
+      "blockClass": [
+        "st",
+        "shelf-title-text"
+      ]
+    }
+  },
+
+  "flex-layout.row#home--row--banner-tablet--belleza": {
+    "props": {
+      "blockClass": [
+        "one-banners",
+        "section-home--belleza"
+      ]
+    },
+    "children": [
+      "image#home--image--banner-tablet--belleza"
+    ]
+  },
+  "flex-layout.row#home--row--banner-phone--belleza": {
+    "props": {
+      "blockClass": [
+        "one-banners",
+        "section-home--belleza"
+      ]
+    },
+    "children": [
+      "image#home--image--banner-phone--belleza"
+    ]
+  },
+  "image#home--image--banner-tablet--belleza": {
+    "props": {
+      "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/a2aaf3ac-e4b9-425e-b147-2fd9c8987413___9179f489e317a724c4863cc9825a286a.jpg",
+      "blockClass": [
+        "home-banner",
+        "one-banner"
+      ]
+    }
+  },
+  "image#home--image--banner-phone--belleza": {
+    "props": {
+      "src": "https://realplaza.vtexassets.com/assets/vtex/assets-builder/realplaza.realplaza-theme/3.43.33/belleza-mobile___c3110961d73ed5ab169c50ba4276b949.jpg",
+      "blockClass": [
+        "home-banner",
+        "one-banner"
+      ]
+    }
+  },
+  "flex-layout.row#home--row--carrousel--belleza": {
+    "props": {
+      "blockClass": [
+        "shelf",
+        "section-salud-bienestar"
+      ]
+    },
+    "children": [
+      "list-context.product-list#home--products--carrousel--belleza"
+    ]
+  },
+  "list-context.product-list#home--products--carrousel--belleza": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#home-products-desktop"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 15
+    }
+  }
+}

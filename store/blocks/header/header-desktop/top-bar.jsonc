@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#top-bar": {
+      "children": [
+        "responsive-layout.desktop#notification",
+        "responsive-layout.tablet#notification",
+        "responsive-layout.phone#notification"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "fullWidth": true,
+        "blockClass": "top-bar-container"
+      }
+    },  
+    "responsive-layout.desktop#notification": {
+      "children": ["image#notification-bar-desktop"]
+    },
+  
+    "responsive-layout.tablet#notification": {
+      "children": ["image#notification-bar-tablet"]
+    },
+  
+    "responsive-layout.phone#notification": {
+      "children": ["image#notification-bar-mobile"]
+    },
+  
+    "image#notification-bar-desktop": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/6b219ddd-d2a8-4a5f-a715-8b24d60b0ec3___0802b29d242d5065df8419c3f13487c3.jpg",
+        "blockClass": "notifitacion-bar-image"
+      }
+    },
+  
+    "image#notification-bar-tablet": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/6b219ddd-d2a8-4a5f-a715-8b24d60b0ec3___0802b29d242d5065df8419c3f13487c3.jpg",
+        "blockClass": "notifitacion-bar-image"
+      }
+    },
+  
+    "image#notification-bar-mobile": {
+      "props": {
+        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/6b219ddd-d2a8-4a5f-a715-8b24d60b0ec3___0802b29d242d5065df8419c3f13487c3.jpg",
+        "blockClass": "notifitacion-bar-image"
+      }
+    }
+  }
+  

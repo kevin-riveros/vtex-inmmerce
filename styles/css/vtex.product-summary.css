@@ -1,0 +1,40 @@
+:global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: 260px !important;
+}
+
+:global(.vtex-product-summary-2-x-productBrand ) {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: capitalize;
+    color: #0000008c;
+    padding: 0px 5px;
+}
+
+:global(.vtex-product-summary-2-x-installmentContainer) {
+    display: none;
+}
+
+:global(.vtex-product-summary-2-x-element) 
+:global(.vtex-button) { 
+    border-radius: 100px;
+    width: 150px!important;
+    background: white!important;
+    border: 2px solid #40a8c4!important;
+    margin: auto;
+    padding: 8px 0px;
+}
+
+:global(.vtex-product-summary-2-x-element) 
+:global(.vtex-button):hover { 
+    background: #40a8c4!important;
+}
+
+:global(.vtex-product-summary-2-x-element) 
+:global(.vtex-button):hover :global(.vtex-menu-2-x-styledLinkContent--menu-item-link ) {
+    color: white!important;
+}
+
+:global(.vtex-product-summary-2-x-element) {
+    border: 1.9px solid #eee;
+    padding: 0px !important;
+    padding-bottom: 10px !important;
+} 

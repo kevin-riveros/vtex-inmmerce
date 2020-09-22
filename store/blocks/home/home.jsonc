@@ -1,0 +1,45 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+
+      "flex-layout.row#shelf-title-recomendacion",
+      "flex-layout.row#shelf-desktop-recomendacion",
+      "flex-layout.row#shelf-mobile-recomendacion",
+
+      "responsive-layout.desktop#home--container--belleza",
+      "responsive-layout.tablet#home--container--belleza",
+      "responsive-layout.phone#home--container--belleza",
+
+      "responsive-layout.desktop#home--container--moda-mujer",
+      "responsive-layout.tablet#home--container--moda-mujer",
+      "responsive-layout.phone#home--container--moda-mujer",
+
+      "responsive-layout.desktop#home--container--moda-hombre",
+      "responsive-layout.tablet#home--container--moda-hombre",
+      "responsive-layout.phone#home--container--moda-hombre",
+
+      "responsive-layout.desktop#home--container--tecnologia",
+      "responsive-layout.tablet#home--container--tecnologia",
+      "responsive-layout.phone#home--container--tecnologia",
+
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#shelf-title-recomendacion": {
+    "props": {
+      "blockClass": "shelf-title"
+    },
+    "children": [
+      "rich-text#shelf-title-recomendacion"]
+  },
+  "rich-text#shelf-title-recomendacion": {
+    "props": {
+      "text": "Déjanos recomendarte",
+      "blockClass": [
+        "st",
+        "shelf-title-text"
+      ]
+    }
+  }
+}

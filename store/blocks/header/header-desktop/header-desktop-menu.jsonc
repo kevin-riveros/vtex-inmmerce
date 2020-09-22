@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#desktop-menu": {
+    "props": {
+      "blockClass": ["main-header"],
+      "horizontalAlign": "left",
+      "verticalAlign": "left",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+
+    "children": ["flex-layout.col#main-menu-items"]
+  },
+  "flex-layout.col#main-menu-items": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "main-menu-items"
+    },
+
+    "children": ["vtex.menu@2.x:menu#main-menu-items"]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "vtex.menu@2.x:menu#footer-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contact-us-mobile",
+      "menu-item#special-services-mobile",
+      "menu-item#fast-links-mobile"
+    ]
+  },
+
+  "menu-item#customer-service-mobile": {
+    "props": {
+      "id": "menu-item-customer-service-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "dropdown-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SERVICIO AL CLIENTE"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#customer-service-submenu"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#customer-service-submenu": {
+    "props": {
+      "blockClass": "accordion-menu-footer"
+    },
+    "children": ["vtex.menu@2.x:menu#customer-service-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#customer-service-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#test1",
+      "menu-item#test2",
+      "menu-item#terms",
+      "menu-item#policy"
+    ]
+  },
+
+  "menu-item#special-services-mobile": {
+    "props": {
+      "id": "menu-item-special-services-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "dropdown-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SECCIONES"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#special-services-submenu"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#special-services-submenu": {
+    "props": {
+      "blockClass": "accordion-menu-footer"
+    },
+    "children": ["vtex.menu@2.x:menu#special-services-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#special-services-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#selling", "menu-item#about-us-item"]
+  },
+
+  "menu-item#fast-links-mobile": {
+    "props": {
+      "id": "menu-item-fast-links-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "dropdown-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "SÍGUENOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#fast-links-submenu"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#fast-links-submenu": {
+    "props": {
+      "blockClass": "accordion-menu-footer"
+    },
+    "children": ["vtex.menu@2.x:menu#fast-links-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#fast-links-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.col#social-links",
+      "menu-item#test-title-pay",
+      "rich-text#pay-icons",
+      "menu-item#book"
+    ]
+  },
+
+  "rich-text#pay-icons": {
+    "props": {
+      "text": ".",
+      "blockClass": "pay-icons"
+    }
+  },
+
+  "menu-item#contact-us-mobile": {
+    "props": {
+      "id": "menu-item-contact-us-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "dropdown-link",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "text": "CONTÁCTANOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contact-us-submenu"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#contact-us-submenu": {
+    "props": {
+      "blockClass": "accordion-menu-footer"
+    },
+    "children": ["flex-layout.col#contact-us"]
+  }
+}

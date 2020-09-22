@@ -1,0 +1,199 @@
+{
+  "flex-layout.row#template-site-collage": {
+    "props": {
+      "blockClass": "template-site-college"
+    },
+    "children": ["flex-layout.col#template-site-college-banner"]
+  },
+
+  "flex-layout.col#template-site-college-banner": {
+    "props": {
+      "blockClass": "template-site-college-responsive"
+    },
+    "children": [
+      "responsive-layout.desktop#template-site-college-desktop",
+      "responsive-layout.tablet#template-site-college-tablet",
+      "responsive-layout.phone#template-site-college-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#template-site-college-desktop": {
+    "props": {
+      "blockClass": "template-site-college-responsive-desktop"
+    },
+    "children": ["flex-layout.row#template-site-college-desktop-child"]
+  },
+
+  "flex-layout.row#template-site-college-desktop-child": {
+    "props": {
+      "blockClass": "template-site-collage"
+    },
+    "children": [
+      "flex-layout.col#template-site-collage-one-image-desktop",
+      "flex-layout.col#template-site-collage-two-image-desktop"
+    ]
+  },
+
+  "flex-layout.col#template-site-collage-one-image-desktop": {
+    "props": {
+      "width": "45%",
+      "blockClass": "template-site-collage-one-image"
+    },
+    "children": ["image#collage-one-image-desktop"]
+  },
+
+  "image#collage-one-image-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598483961517-695x778_C.jpg"
+    }
+  },
+
+  "flex-layout.col#template-site-collage-two-image-desktop": {
+    "props": {
+      "width": "55%",
+      "blockClass": "template-site-collage-two-image-desktop"
+    },
+    "children": [
+      "image#template-site-collage-top-image-desktop",
+      "image#template-site-collage-bottom-image-desktop"
+    ]
+  },
+
+  "image#template-site-collage-top-image-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598483973897-898x369-sfera-ni%C3%B1os_D.jpg"
+    }
+  },
+
+  "image#template-site-collage-bottom-image-desktop": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598483982362-898x369-sfera_E.jpg"
+    }
+  },
+
+  "responsive-layout.tablet#template-site-college-tablet": {
+    "props": {
+      "blockClass": "template-site-college-responsive-tablet"
+    },
+    "children": ["flex-layout.row#template-site-college-tablet-child"]
+  },
+
+  "flex-layout.row#template-site-college-tablet-child": {
+    "props": {
+      "blockClass": "template-site-collage"
+    },
+    "children": [
+      "flex-layout.col#template-site-collage-one-image-tablet",
+      "flex-layout.col#template-site-collage-two-image-tablet"
+    ]
+  },
+
+  "flex-layout.col#template-site-collage-one-image-tablet": {
+    "props": {
+      "width": "45%",
+      "blockClass": "template-site-collage-one-image"
+    },
+    "children": ["image#collage-one-image-tablet"]
+  },
+
+  "image#collage-one-image-tablet": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490153446-405x455_C.jpg"
+    }
+  },
+
+  "flex-layout.col#template-site-collage-two-image-tablet": {
+    "props": {
+      "width": "55%",
+      "blockClass": "template-site-collage-two-image-tablet"
+    },
+    "children": [
+      "image#template-site-collage-top-image-tablet",
+      "image#template-site-collage-bottom-image-tablet"
+    ]
+  },
+
+  "image#template-site-collage-top-image-tablet": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489989220-524x216-sfera-ni%C3%B1os_D.jpg"
+    }
+  },
+
+  "image#template-site-collage-bottom-image-tablet": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598489995853-524x216-sfera_E.jpg"
+    }
+  },
+
+  "responsive-layout.phone#template-site-college-mobile": {
+    "props": {
+      "blockClass": "template-site-college-responsive-mobile"
+    },
+    "children": ["flex-layout.row#template-site-college-mobile-child"]
+  },
+
+  "flex-layout.row#template-site-college-mobile-child": {
+    "props": {
+      "blockClass": "template-site-collage"
+    },
+    "children": [
+      "flex-layout.col#template-site-collage-one-image-mobile",
+      "flex-layout.col#template-site-collage-two-image-mobile"
+    ]
+  },
+
+  "flex-layout.col#template-site-collage-one-image-mobile": {
+    "props": {
+      "width": "35%",
+      "blockClass": "template-site-collage-one-image"
+    },
+    "children": ["image#collage-one-image-mobile"]
+  },
+
+  "image#collage-one-image-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490376111-354x400_C.jpg"
+    }
+  },
+
+  "flex-layout.col#template-site-collage-two-image-mobile": {
+    "props": {
+      "width": "65%",
+      "blockClass": "template-site-collage-two-image-mobile"
+    },
+    "children": [
+      "image#template-site-collage-top-image-mobile",
+      "image#template-site-collage-bottom-image-mobile"
+    ]
+  },
+
+  "image#template-site-collage-top-image-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490393344-720x295-sfera-ni%C3%B1os_D.jpg"
+    }
+  },
+
+  "image#template-site-collage-bottom-image-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "src": "https://s3.amazonaws.com/dev-application-fileserver/nps-images/1598490393163-720x295-sfera_E.jpg"
+    }
+  }
+}
