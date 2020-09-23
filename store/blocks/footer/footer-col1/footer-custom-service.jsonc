@@ -1,0 +1,22 @@
+{
+    "rich-text#title-custom-service": {
+      "props": {
+        "blockClass": ["contact-text", "contact-title"],
+        "text": "SERVICIO AL CLIENTE"
+      }
+    },
+  
+    "rich-text#vende-rpgo": {
+      "props": {
+        "blockClass": ["contact-text", "email-title"],
+        "text": "Vendre en nuestra tienda"
+      }
+    },
+  
+    "rich-text#nosotros": {
+      "props": {
+        "blockClass": ["contact-text", "phone-title"],
+        "text": "Acerca de nosotros"
+      }
+    }
+  }

@@ -1,24 +1,29 @@
-:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf) {
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf),
+:global(.vtex-shelf-1-x-arrowLeft) {
     background: transparent;
     left: -10px !important;
     color: #40a8c4 !important;
 }
 
-:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf) {
+:global(.vtex-slider-layout-0-x-sliderRightArrow--shelf),
+:global(.vtex-shelf-1-x-arrowRight ) {
     background: transparent;
     right: -10px !important;
     color: #40a8c4 !important;
 }
 
-:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf) {
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf),
+:global(.vtex-slider-0-x-dotsContainer) {
     bottom: -20px !important;
 }
 
-:global(.vtex-slider-layout-0-x-paginationDot--shelf) {
+:global(.vtex-slider-layout-0-x-paginationDot--shelf),
+:global(.vtex-shelf-1-x-dot) {
     height: 0.8rem !important;
     width: 0.8rem !important;
 }
 
-:global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+:global(.vtex-slider-layout-0-x-paginationDot--isActive),
+:global(.vtex-shelf-1-x-dot--isActive){
     background: #40a8c4 !important;
 }

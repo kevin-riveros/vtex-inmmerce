@@ -5,21 +5,32 @@
     },
     "children": [
       "rich-text#contact-title",
-      "rich-text#phone-title",
-      "rich-text#contact-phone",
-      "rich-text#contact-whatsapp",
-      "rich-text#contact-sede",
       "rich-text#email-title",
-      "rich-text#contact-email"
+      "rich-text#phone-title",
+      "rich-text#contact-whatsapp"
     ]
   },
 
-  "flex-layout.col#links": {
+  "flex-layout.col#custom-service-footer": {
     "props": {
-      "width": "80%",
-      "blockClass": "links"
+      "width": "33%"
     },
-    "children": ["flex-layout.row#links"]
+    "children": [
+      "rich-text#title-custom-service",
+      "rich-text#vende-rpgo",
+      "rich-text#nosotros"
+    ]
+  },
+
+  "flex-layout.col#social-networks": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "rich-text#title-social-networks",
+      "flex-layout.col#social-links",
+      "rich-text#libro-de-reclamaciones"
+    ]
   },
 
   "flex-layout.row#links": {

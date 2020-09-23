@@ -1,0 +1,16 @@
+{
+    "rich-text#title-social-networks": {
+      "props": {
+        "blockClass": ["contact-text", "contact-title"],
+        "text": "REDES SOCIALES"
+      }
+    },
+  
+    "rich-text#libro-de-reclamaciones": {
+      "props": {
+        "blockClass": ["contact-text", "phone-title"],
+        "text": "Libro de Reclamaciones"
+      }
+    }
+  }
+  

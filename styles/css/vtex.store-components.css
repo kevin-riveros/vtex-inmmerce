@@ -101,3 +101,26 @@
   color: #40a8c4 !important;
   text-transform: capitalize;
 }
+
+/*FOOTER*/
+
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-store-components-3-x-container) {
+  padding: 38px 0px;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+
+:global(.vtex-checkout-summary-0-x-price) {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+
+/*PRODUCT-PAGE*/

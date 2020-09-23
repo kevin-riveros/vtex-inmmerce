@@ -5,7 +5,7 @@
             "flex-layout.row#product-main-seller",
             "vtex.menu@2.x:menu#product-description",
             "flex-layout.row#product-reviews",
-            "flex-layout.row#related-products-title",
+            "flex-layout.row#shelf-title--related",
             "flex-layout.row#related-products-desktop",
             "flex-layout.row#related-products-mobile",
             "product-questions-and-answers"

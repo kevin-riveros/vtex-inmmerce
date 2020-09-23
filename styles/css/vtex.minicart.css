@@ -3,3 +3,13 @@
     right: -1.2rem;
     background: #40a8c4;
 }
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton)
+:global(.vtex-button) {
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #40a8c4;
+    background: white;
+    border-color: #40a8c4;
+    border-radius: 100px;
+}

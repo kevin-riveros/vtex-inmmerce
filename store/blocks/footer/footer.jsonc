@@ -28,7 +28,7 @@
       "blockClass": "container-col-1",
       "marginBottom": 2
     },
-    "children": ["flex-layout.col#contact-us", "flex-layout.col#links"]
+    "children": ["flex-layout.col#contact-us", "flex-layout.col#custom-service-footer","flex-layout.col#social-networks"]
   },
 
   "flex-layout.row#col-3": {

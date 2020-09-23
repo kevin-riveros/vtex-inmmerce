@@ -5,11 +5,28 @@
       "flex-layout.row#product-main",
       "vtex.menu@2.x:menu#product-description",
       "flex-layout.row#product-reviews",
-      "flex-layout.row#related-products-title",
+      "flex-layout.row#shelf-title--related",
       "flex-layout.row#related-products-desktop",
       "flex-layout.row#related-products-mobile",
       "product-questions-and-answers"
     ]
+  },
+
+  "flex-layout.row#shelf-title--related": {
+    "props": {
+      "blockClass": "shelf-title"
+    },
+    "children": [
+      "rich-text#shelf-title-related"]
+  },
+  "rich-text#shelf-title-related": {
+    "props": {
+      "text": "Tambien te puede interesar",
+      "blockClass": [
+        "st",
+        "shelf-title-text"
+      ]
+    }
   },
 
   "breadcrumb": {
@@ -179,20 +196,6 @@
       "share#default",
       "flex-layout.row#card-images"
     ]
-  },
-
-  "flex-layout.row#related-products-title": {
-    "props": {
-      "blockClass": "related-products-title"
-    },
-    "children": ["rich-text#related-products-title"]
-  },
-
-  "rich-text#related-products-title": {
-    "props": {
-      "text": "También te puede interesar",
-      "blockClass": "related-products-title"
-    }
   },
 
   "flex-layout.row#product-brand": {

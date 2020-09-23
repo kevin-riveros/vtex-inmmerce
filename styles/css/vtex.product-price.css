@@ -1,0 +1,10 @@
+:global(.vtex-flex-layout-0-x-flexRow--main-product) .sellingPriceValue {
+  margin-bottom: 0 !important;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #7300e0;
+  display: block;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+}

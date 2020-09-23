@@ -2,3 +2,25 @@
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
 }
+
+:global(.vtex-rich-text-0-x-container--copyright) {
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--copyright) {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contact-text) {
+    margin: 10px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+:global(.vtex-rich-text-0-x-link--contact-text) {
+    text-decoration: none;
+    color: #40a8c4;
+}
