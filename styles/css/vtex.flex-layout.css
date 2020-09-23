@@ -169,7 +169,6 @@
   border-right: 2px solid white;
 }
 
-
 :global(.vtex-flex-layout-0-x-flexRow--container-col-1) {
   background: #263238f5;
 }
@@ -180,3 +179,21 @@
 
 /*PRODUCT PAGE*/
 
+:global(.vtex-flex-layout-0-x-flexCol--orderByCol) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo-settings)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo-settings) {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}

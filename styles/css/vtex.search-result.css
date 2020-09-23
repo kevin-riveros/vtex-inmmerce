@@ -1,0 +1,49 @@
+:global(.vtex-search-result-3-x-filterMessage) {
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+}
+
+:global(.vtex-search-result-3-x-filterSelected) {
+    display: none;
+}
+
+:global(.vtex-checkbox__label) {
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 0.9em;
+}
+
+:global(.vtex-search-result-3-x-filterTitle) {
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
+    color: #0000009e;
+}
+
+:global(.vtex-search-result-3-x-filterItem--selected)
+:global(.vtex-checkbox__box) {
+    background: #40a8c4 !important;
+    border-radius: 0.3em !important;
+}
+
+:global(.vtex-search-result-3-x-filterTemplateOverflow ) {
+    margin-top: 20px;
+}
+
+:global(.vtex-checkbox__line-container ) {
+    align-items: center !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo) {
+    flex-direction: column;
+    align-items: center;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize !important;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+}
