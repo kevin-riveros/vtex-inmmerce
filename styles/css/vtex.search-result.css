@@ -47,3 +47,7 @@
     font-family: "Noto Sans JP", sans-serif;
     font-weight: bold;
 }
+
+:global(.vtex-search-result-3-x-filtersWrapper) {
+    margin-bottom: 100px;
+} 

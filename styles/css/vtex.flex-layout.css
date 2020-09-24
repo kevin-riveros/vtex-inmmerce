@@ -197,3 +197,37 @@
   justify-content: space-between;
   flex-direction: row-reverse;
 }
+
+/*VIEWS*/
+:global(.vtex-flex-layout-0-x-flexRowContent--column-style) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--column-style)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+} 
+
+:global(.vtex-search-result-3-x-orderByText) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-search-result-3-x-orderByOptionItem) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterColCustom) {
+  margin-left: 20px;
+}
