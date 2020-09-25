@@ -180,3 +180,8 @@
 
 /*PRODUCT PAGE*/
 
+.flexRow--breadcrumb-row,
+.flexRow--main-product {
+    width: 100%;
+    padding: 0 10px;
+}

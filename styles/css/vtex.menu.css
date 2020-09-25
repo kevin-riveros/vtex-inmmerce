@@ -3,3 +3,120 @@
   font-weight: 500;
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) {
+  width: 100%;
+  padding: 0 28px;
+  display: block;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-productDescriptionTitle),
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTitle),
+:global(.vtex-reviews-and-ratings-1-x-reviewsHeading) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-productDescriptionText) {
+  margin-top: 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-styledLinkContent--menu-item-link) {
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #171717;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-menuItem) {
+  width: 100%;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-menuItemInnerDiv) {
+  border-bottom: solid 1px #ccc;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-accordionIcon) {
+  margin-top: 2px;
+  font-size: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-accordionIcon--isClosed)::before {
+  font-size: 15px;
+  content: "<";
+  display: block;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-accordionIcon--isOpen)::before {
+  font-size: 15px;
+  content: "<";
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-submenuAccordion--accordion-product-description),
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-menu-2-x-submenuAccordion--accordion-product-description) :global(.vtex-store-components-3-x-container) {
+  padding: 0 7px;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-product-specifications) :global(.vtex-menu-2-x-submenuAccordion--accordion-product-description) :global(.vtex-flex-layout-0-x-flexRow) {
+  width: 100%;
+  padding: 0 10px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--accordion-product-reviews) :global(.vtex-flex-layout-0-x-flexRow) {
+  width: 100%;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTableContainer) {
+  padding: 0px;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTable) {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  /* border: solid 1px #dbdbdb; */
+  border: none;
+  border-spacing: inherit;
+  border-radius: 5px;
+  color: #767676;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTable) :global(.vtex-store-components-3-x-specificationsTableRow--product-specifications):nth-child(odd) {
+  background-color: #f8f8f8;
+  /* background-color: #ece3ff; */
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTable) :global(.vtex-store-components-3-x-specificationItemProperty),
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTable) :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+  border: none;
+  /* color: black; */
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationItemProperty) {
+  font-weight: 700;
+}
+
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTablePropertyHeading),
+:global(.vtex-menu-2-x-menuContainer--accordion-product-description) :global(.vtex-store-components-3-x-specificationsTableSpecificationHeading) {
+  display: none;
+}
+
+@media screen and (min-width: 1150px) {
+
+  :global(.vtex-menu-2-x-menuContainer--accordion-product-description) {
+    width: 1120px;
+    margin: 0 auto;
+  }
+}

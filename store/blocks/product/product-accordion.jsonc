@@ -90,15 +90,5 @@
             ],
             "blockClass": "product-specifications"
         }
-    },
-
-
-
-    "flex-layout.row#product-reviews": {
-        "props": {
-            "marginBottom": 7,
-            "blockClass": "product-reviews"
-        },
-        "children": ["product-reviews"]
     }
 }
