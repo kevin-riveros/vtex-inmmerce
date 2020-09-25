@@ -40,8 +40,9 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home-products-desktop"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 15
+      "orderBy": "OrderByPriceASC",
+      "maxItems": 15,
+      "hideUnavailableItems": true
     }
   },
 
@@ -56,8 +57,10 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#home-products-mobile"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "maxItems": 15
+      "orderBy": "OrderByPriceASC",
+      "maxItems": 15,
+      "hideUnavailableItems": true
+
     }
   }
 }
