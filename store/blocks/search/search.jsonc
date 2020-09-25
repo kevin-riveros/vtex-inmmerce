@@ -119,11 +119,20 @@
   "flex-layout.row#searchinfo": {
     "children": [
       "flex-layout.col#productCountWithTitle",
+      "flex-layout.row#searchbar-settings"
+    ],
+    "props": {
+      "blockClass": "searchinfo"
+    }
+  },
+
+  "flex-layout.row#searchbar-settings": {
+    "children": [
       "flex-layout.col#orderby"
       //"switch-layout-custom-component"
     ],
     "props": {
-      "blockClass": "searchinfo"
+      "blockClass": "searchinfo-settings"
     }
   },
 

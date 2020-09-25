@@ -169,7 +169,6 @@
   border-right: 2px solid white;
 }
 
-
 :global(.vtex-flex-layout-0-x-flexRow--container-col-1) {
   background: #263238f5;
 }
@@ -180,8 +179,62 @@
 
 /*PRODUCT PAGE*/
 
+<<<<<<< HEAD
 .flexRow--breadcrumb-row,
 .flexRow--main-product {
     width: 100%;
     padding: 0 10px;
+=======
+:global(.vtex-flex-layout-0-x-flexCol--orderByCol) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo-settings)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--searchinfo-settings) {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/*VIEWS*/
+:global(.vtex-flex-layout-0-x-flexRowContent--column-style) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--column-style)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+} 
+
+:global(.vtex-search-result-3-x-orderByText) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-search-result-3-x-orderByOptionItem) {
+  text-transform: capitalize !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterColCustom) {
+  margin-left: 20px;
+>>>>>>> 444ecbd7eb77452efea65607dfcdd405f2c0dfa8
 }
