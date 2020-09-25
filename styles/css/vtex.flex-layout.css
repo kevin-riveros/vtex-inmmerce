@@ -179,12 +179,11 @@
 
 /*PRODUCT PAGE*/
 
-<<<<<<< HEAD
 .flexRow--breadcrumb-row,
 .flexRow--main-product {
     width: 100%;
     padding: 0 10px;
-=======
+}
 :global(.vtex-flex-layout-0-x-flexCol--orderByCol) {
   width: auto !important;
 }
@@ -236,5 +235,36 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--filterColCustom) {
   margin-left: 20px;
->>>>>>> 444ecbd7eb77452efea65607dfcdd405f2c0dfa8
 }
+
+
+
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100%!important;
+}
+ 
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  display: block;
+}
+ 
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: none;
+}
+ 
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: block;
+}
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  display: none;
+}
+ 
+@mediascreenand (min-width: 1024px) {
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      display: none;
+  }
+.flexRowContent--product-responsive-layout :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+      display: block !important;
+  }
+}
+
