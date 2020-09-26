@@ -1,7 +1,8 @@
 {
   "flex-layout.col#contact-us": {
     "props": {
-      "width": "33%"
+      "width": "33%",
+      "blockClass": ["footer-contact-us"]
     },
     "children": [
       "rich-text#contact-title",
@@ -13,7 +14,8 @@
 
   "flex-layout.col#custom-service-footer": {
     "props": {
-      "width": "33%"
+      "width": "33%",
+      "blockClass": ["footer-custom-service"]
     },
     "children": [
       "rich-text#title-custom-service",
@@ -24,7 +26,8 @@
 
   "flex-layout.col#social-networks": {
     "props": {
-      "width": "33%"
+      "width": "33%",
+      "blockClass": ["footer-social-networks"]
     },
     "children": [
       "rich-text#title-social-networks",

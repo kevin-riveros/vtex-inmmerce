@@ -158,12 +158,15 @@
     background-color: #c4a49229;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--container-col-1)
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:last-child) {
-    width: 33%;
-    margin-right: 5%;
-    border-right: 2px solid white;
+@media (min-width: 640px) {
+    :global(.vtex-flex-layout-0-x-flexRowContent--container-col-1)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):not(:last-child) {
+        width: 33%;
+        margin-right: 5%;
+        border-right: 2px solid white;
+    }
 }
+
 
 :global(.vtex-flex-layout-0-x-flexRow--container-col-1) {
     background: #263238f5;

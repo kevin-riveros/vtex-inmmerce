@@ -18,7 +18,7 @@
       "blockClass": "footer"
     },
     "children": [
-      "flex-layout.row#col-1-mobile",
+      "flex-layout.row#col-1",
       "flex-layout.row#col-3"
     ]
   },

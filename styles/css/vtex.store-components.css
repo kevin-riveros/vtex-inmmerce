@@ -1,126 +1,184 @@
 :global(.vtex-store-components-3-x-imageElement--notifitacion-bar-image) {
-  max-width: none !important;
+    max-width: none !important;
 }
 
 :global(.vtex-store-components-3-x-searchBarContainer)
-  :global(.vtex-input-prefix__group) {
-  border-radius: 0.4em;
-  width: 400px;
+:global(.vtex-input-prefix__group) {
+    border-radius: 0.4em;
+    width: 400px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--flex-login) {
-  align-items: center;
-  justify-content: center;
-  display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 :global(.vtex-login-2-x-label) {
-  display: none;
+    display: none;
 }
 
 :global(.vtex-minicart-2-x-minicartWrapperContainer) {
-  width: auto;
-  border-radius: 1em;
+    width: auto;
+    border-radius: 1em;
 }
 
 :global(.vtex-minicart-2-x-minicartContainer) {
-  border-radius: 1em;
+    border-radius: 1em;
 }
 
 :global(.vtex-minicart-2-x-openIconContainer) {
-  border-radius: 0.5em;
-  padding: 0;
+    border-radius: 0.5em;
+    padding: 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--flex-login) :global(.vtex-button),
 :global(.vtex-flex-layout-0-x-flexRowContent--minicart-v2)
-  :global(.vtex-button) {
-  font-size: 0;
-  border-color: #f1f3f8;
-  border-radius: 100px;
+:global(.vtex-button) {
+    font-size: 0;
+    border-color: #f1f3f8;
+    border-radius: 100px;
 }
 
 :global(.vtex-store-components-3-x-searchBarContainer)
-  :global(.vtex-input__suffix) {
-  text-align: center;
-  background: #f1f3f8;
-  padding: 0px 10px;
+:global(.vtex-input__suffix) {
+    text-align: center;
+    background: #f1f3f8;
+    padding: 0px 10px;
 }
 
 :global(.vtex-store-components-3-x-sellingPrice) {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 600;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
 }
 
 :global(.vtex-store-components-3-x-discountInsideContainer) {
-  background: #40a8c4;
-  border-radius: 15px;
-  right: 5px;
-  top: 5px;
-  padding: 7px 15px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
-  -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+    background: #40a8c4;
+    border-radius: 15px;
+    right: 5px;
+    top: 5px;
+    padding: 7px 15px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    -webkit-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 21px -10px rgba(0, 0, 0, 0.75);
 }
 
 /*NEWSLETTER*/
 
 :global(.vtex-flex-layout-0-x-flexRow--newsletter)
-  :global(.vtex-store-components-3-x-container) {
-  padding: 70px 0px !important;
+:global(.vtex-store-components-3-x-container) {
+    padding: 70px 0px !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--newsletter)
-  :global(.vtex-store-components-3-x-label) {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
-  color: #0000007d;
+:global(.vtex-store-components-3-x-label) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    color: #0000007d;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--newsletter)
-  :global(.vtex-store-components-3-x-buttonContainer)
-  :global(.vtex-button) {
-  border-radius: 100px;
-  width: 150px !important;
-  background: white !important;
-  border: 2px solid #40a8c4 !important;
-  margin: auto;
-  padding: 8px 0px;
+:global(.vtex-store-components-3-x-buttonContainer)
+:global(.vtex-button) {
+    border-radius: 100px;
+    width: 150px !important;
+    background: white !important;
+    border: 2px solid #40a8c4 !important;
+    margin: auto;
+    padding: 8px 0px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--newsletter)
-  :global(.vtex-store-components-3-x-buttonContainer)
-  :global(.vtex-button)
-  :global(.vtex-button__label) {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
-  padding-top: 0.25em;
-  padding-bottom: 0.32em;
-  color: #40a8c4 !important;
-  text-transform: capitalize;
+:global(.vtex-store-components-3-x-buttonContainer)
+:global(.vtex-button)
+:global(.vtex-button__label) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    padding-top: 0.25em;
+    padding-bottom: 0.32em;
+    color: #40a8c4 !important;
+    text-transform: capitalize;
 }
 
 /*FOOTER*/
 
 :global(.vtex-store-footer-2-x-footerLayout)
 :global(.vtex-store-components-3-x-container) {
-  padding: 38px 0px;
+    padding: 38px 0px;
 }
 
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
-  display: none;
+    display: none;
 }
 
 :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
 }
 
 :global(.vtex-checkout-summary-0-x-price) {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: bold;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
 }
 
 /*PRODUCT-PAGE*/
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-contact-us):first-child {
+    border-bottom: 2px solid white;
+}
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-contact-us) {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-custom-service):first-child {
+    border-bottom: 2px solid white;
+    margin-top: 25px;
+}
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-custom-service) {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-social-networks):first-child {
+    border-bottom: 2px solid white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.container
+:global(.vtex-flex-layout-0-x-flexColChild--footer-social-networks) {
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+
+.container
+:global(.vtex-rich-text-0-x-paragraph) {
+    color: #F7FAFC;
+}
+
+/* Medium (md) */
+@media (min-width: 640px) {
+    .container
+    :global(.vtex-flex-layout-0-x-flexColChild--footer-contact-us):first-child {
+        border-bottom: none;
+    }
+    .container
+    :global(.vtex-flex-layout-0-x-flexColChild--footer-custom-service):first-child {
+        border-bottom: none;
+    }
+    .container
+    :global(.vtex-flex-layout-0-x-flexColChild--footer-social-networks):first-child {
+        border-bottom: none;
+    }
+}
