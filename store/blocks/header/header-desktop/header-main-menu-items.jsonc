@@ -35,10 +35,10 @@
         "blockClass": ["menu-item-link", "menu-item-cyberdays"],
         "itemProps": {
           "type": "internal",
-          "href": "/marcas-oficiales",
+          "href": "/vinos-peru",
           "noFollow": true,
           "tagTitle": "",
-          "text": "Marcas Oficiales"
+          "text": "Vinos de Perú"
         }
       }
     },

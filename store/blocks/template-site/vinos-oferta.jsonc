@@ -4,7 +4,10 @@
           "blockClass": "custom-site-vinos-ofertas"
         },
       "blocks": [
-        "flex-layout.row#oferta-title"
+        "flex-layout.row#oferta-title",
+        "responsive-layout.desktop#home--container--belleza",
+        "responsive-layout.tablet#home--container--belleza",
+        "responsive-layout.phone#home--container--belleza"
       ]
     },
     "flex-layout.row#oferta-title": {

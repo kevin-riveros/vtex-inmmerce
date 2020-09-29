@@ -4,7 +4,10 @@
           "blockClass": "custom-site-vinos-ofertas"
         },
       "blocks": [
-        "flex-layout.row#marcas-oferta-title"
+        "flex-layout.row#marcas-oferta-title",
+        "responsive-layout.desktop#home--container--moda-mujer",
+        "responsive-layout.tablet#home--container--moda-mujer",
+        "responsive-layout.phone#home--container--moda-mujer"
       ]
     },
     "flex-layout.row#marcas-oferta-title": {
@@ -16,7 +19,7 @@
       },
       "rich-text#marcas-vino-title": {
         "props": {
-          "text": "MARCAS OFICIALES",
+          "text": "VINOS DE PERU",
           "blockClass": [
             "st",
             "shelf-title-text"
