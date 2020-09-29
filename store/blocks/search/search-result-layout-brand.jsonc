@@ -3,14 +3,32 @@
         "blocks": [
             "search-result-layout.desktop#brand",
             "search-result-layout.mobile#brand",
-            "search-not-found-layout"
+            "search-not-found-layout#not"
         ],
         "props": {
             "__unstableProductOriginVtex": true,
             "blockClass": "search-result-layout"
         }
     },
-
+    "search-not-found-layout#not": {
+        "children": ["flex-layout.row#notfound"]
+      },
+    
+      "flex-layout.row#notfound": {
+        "children": ["image#not-found"],
+        "props": {
+          "fullWidth": true,
+          "blockClass": "not-found"
+        }
+      },
+      "image#not-found": {
+        "props": {
+            "src": "https://i.ibb.co/PmdLxLp/NOTFOUND.png",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
     "search-result-layout.desktop#brand": {
         "children": [
             "flex-layout.row#brand-banner",

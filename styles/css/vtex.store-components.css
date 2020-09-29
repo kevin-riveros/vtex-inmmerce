@@ -53,7 +53,7 @@
 }
 
 :global(.vtex-store-components-3-x-discountInsideContainer) {
-    background: #40a8c4;
+    background: #8bc34a;
     border-radius: 15px;
     right: 5px;
     top: 5px;
@@ -85,7 +85,7 @@
     border-radius: 100px;
     width: 150px !important;
     background: white !important;
-    border: 2px solid #40a8c4 !important;
+    border: 2px solid #8bc34a !important;
     margin: auto;
     padding: 8px 0px;
 }
@@ -98,7 +98,7 @@
     font-weight: bold;
     padding-top: 0.25em;
     padding-bottom: 0.32em;
-    color: #40a8c4 !important;
+    color: #8bc34a !important;
     text-transform: capitalize;
 }
 

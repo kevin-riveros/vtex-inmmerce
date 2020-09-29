@@ -62,7 +62,7 @@
   },
   "image#home--image--banner-tablet--belleza": {
     "props": {
-      "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/a2aaf3ac-e4b9-425e-b147-2fd9c8987413___9179f489e317a724c4863cc9825a286a.jpg",
+      "src": "https://i.ibb.co/vXKsBpN/vinos1.png",
       "blockClass": [
         "home-banner",
         "one-banner"
@@ -71,7 +71,7 @@
   },
   "image#home--image--banner-phone--belleza": {
     "props": {
-      "src": "https://realplaza.vtexassets.com/assets/vtex/assets-builder/realplaza.realplaza-theme/3.43.33/belleza-mobile___c3110961d73ed5ab169c50ba4276b949.jpg",
+      "src": "https://i.ibb.co/pPYQYVB/vinos-mobile.png",
       "blockClass": [
         "home-banner",
         "one-banner"

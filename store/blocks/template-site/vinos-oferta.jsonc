@@ -1,0 +1,28 @@
+{
+    "store.custom#vinos-oferta": {
+      "props": {
+          "blockClass": "custom-site-vinos-ofertas"
+        },
+      "blocks": [
+        "flex-layout.row#oferta-title"
+      ]
+    },
+    "flex-layout.row#oferta-title": {
+        "props": {
+          "blockClass": "shelf-title"
+        },
+        "children": [
+          "rich-text#vino-title"]
+      },
+      "rich-text#vino-title": {
+        "props": {
+          "text": "OFERTAS DE VINOS",
+          "blockClass": [
+            "st",
+            "shelf-title-text"
+          ]
+        }
+      }
+
+}
+  

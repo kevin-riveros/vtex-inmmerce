@@ -5,14 +5,19 @@
           "autoplaySpeed": 7,
           "banners": [
             {
-              "image": "https://panuts.com/wp-content/uploads/2020/08/Banner-epico_1920x600.jpg",
-              "tabletImage": "https://panuts.com/wp-content/uploads/2020/08/Banner-epico_1920x600.jpg",
-              "mobileImage": "https://panuts.com/wp-content/uploads/2020/08/Banner-epico_1920x600.jpg"
+              "image":       "https://image.freepik.com/free-vector/white-wine-bottle-glass-banner_33099-1956.jpg",
+              "tabletImage": "https://image.freepik.com/free-vector/white-wine-bottle-glass-banner_33099-1956.jpg",
+              "mobileImage": "https://image.freepik.com/free-vector/white-wine-bottle-glass-banner_33099-1956.jpg"
             },
             {
               "image": "https://arkrem.vteximg.com.br/arquivos/ids/155774/full-banner-vinos.jpg",
               "tabletImage": "https://arkrem.vteximg.com.br/arquivos/ids/155774/full-banner-vinos.jpg",
               "mobileImage": "https://arkrem.vteximg.com.br/arquivos/ids/155774/full-banner-vinos.jpg"
+            },
+            {
+              "image":       "https://image.freepik.com/free-vector/wine-glass-bottles-flowing-red-liquid-realistic_107791-499.jpg",
+              "tabletImage": "https://image.freepik.com/free-vector/wine-glass-bottles-flowing-red-liquid-realistic_107791-499.jpg",
+              "mobileImage": "https://image.freepik.com/free-vector/wine-glass-bottles-flowing-red-liquid-realistic_107791-499.jpg"
             }
           ],
           "height": 720,

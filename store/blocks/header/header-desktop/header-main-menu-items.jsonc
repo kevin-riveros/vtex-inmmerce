@@ -5,30 +5,11 @@
       },
   
       "children": [
-        "menu-item#categories",
         "menu-item#oficial-stores",
-        "menu-item#less-than-69"
+        "menu-item#oferta-vinos"
       ]
     },
-  
-    "menu-item#categories": {
-      "props": {
-        "id": "menu-item-categories",
-        "type": "custom",
-        "iconId": "arrow-back",
-        "highlight": false,
-        "blockClass": ["menu-item-link", "menu-item-categories"],
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "",
-          "text": "Categorías"
-        }
-      },
-      "blocks": []
-    },
-    "menu-item#less-than-69": {
+    "menu-item#oferta-vinos": {
       "props": {
         "id": "menu-item-deco-home",
         "type": "custom",
@@ -37,10 +18,10 @@
         "blockClass": ["menu-item-link", "menu-item-offers"],
         "itemProps": {
           "type": "custom",
-          "href": "/menos-49",
+          "href": "/vinos-oferta",
           "noFollow": true,
           "tagTitle": "",
-          "text": "Menos de S/.49"
+          "text": "Ofertas"
         }
       }
     },
@@ -54,10 +35,10 @@
         "blockClass": ["menu-item-link", "menu-item-cyberdays"],
         "itemProps": {
           "type": "internal",
-          "href": "/tiendas-oficiales",
+          "href": "/marcas-oficiales",
           "noFollow": true,
           "tagTitle": "",
-          "text": "Tiendas Oficiales"
+          "text": "Marcas Oficiales"
         }
       }
     },

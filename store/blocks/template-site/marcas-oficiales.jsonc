@@ -1,0 +1,28 @@
+{
+    "store.custom#marcas-vinos-oferta": {
+      "props": {
+          "blockClass": "custom-site-vinos-ofertas"
+        },
+      "blocks": [
+        "flex-layout.row#marcas-oferta-title"
+      ]
+    },
+    "flex-layout.row#marcas-oferta-title": {
+        "props": {
+          "blockClass": "shelf-title"
+        },
+        "children": [
+          "rich-text#marcas-vino-title"]
+      },
+      "rich-text#marcas-vino-title": {
+        "props": {
+          "text": "MARCAS OFICIALES",
+          "blockClass": [
+            "st",
+            "shelf-title-text"
+          ]
+        }
+      }
+
+}
+  

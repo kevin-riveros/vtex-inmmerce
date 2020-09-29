@@ -53,9 +53,8 @@
     },
 
     "children": [
-      "menu-item#categories",
       "menu-item#oficial-stores",
-      "menu-item#less-than-69"
+      "menu-item#oferta-vinos"
     ]
   },
   "flex-layout.row#first-search-mobile": {

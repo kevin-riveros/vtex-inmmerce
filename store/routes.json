@@ -1,5 +1,9 @@
 {
-  "store.custom#template-site": {
-    "path": "/landing"
+  "store.custom#vinos-oferta": {
+    "path": "/vinos-oferta"
+  },
+  "store.custom#marcas-vinos-oferta": {
+    "path": "/marcas-oficiales"
   }
+ 
 }

@@ -1,15 +1,15 @@
 :global(.vtex-minicart-2-x-minicartQuantityBadge) {
     top: -1.3rem;
     right: -1.2rem;
-    background: #40a8c4;
+    background: #8bc34a;
 }
 
 :global(.vtex-minicart-2-x-minicartCheckoutButton)
 :global(.vtex-button) {
     text-transform: capitalize !important;
     font-family: "Noto Sans JP", sans-serif;
-    color: #40a8c4;
+    color: #8bc34a;
     background: white;
-    border-color: #40a8c4;
+    border-color: #8bc34a;
     border-radius: 100px;
 }

@@ -5,7 +5,7 @@
 :global(.vtex-product-summary-2-x-productBrand ) {
     font-family: 'Noto Sans JP', sans-serif;
     text-transform: capitalize;
-    color: #0000008c;
+    color: #3f3f40;
     padding: 0px 5px;
 }
 
@@ -18,14 +18,14 @@
     border-radius: 100px;
     width: 150px!important;
     background: white!important;
-    border: 2px solid #40a8c4!important;
+    border: 2px solid #8bc34a!important;
     margin: auto;
     padding: 8px 0px;
 }
-
 :global(.vtex-product-summary-2-x-element) 
 :global(.vtex-button):hover { 
-    background: #40a8c4!important;
+    background: #8bc34a!important;
+    color: white!important;
 }
 
 :global(.vtex-product-summary-2-x-element) 

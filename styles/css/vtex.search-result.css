@@ -23,7 +23,7 @@
 
 :global(.vtex-search-result-3-x-filterItem--selected)
 :global(.vtex-checkbox__box) {
-    background: #40a8c4 !important;
+    background: #8bc34a !important;
     border-radius: 0.3em !important;
 }
 

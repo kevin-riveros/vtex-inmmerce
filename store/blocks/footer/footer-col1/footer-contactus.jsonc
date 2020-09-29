@@ -9,14 +9,14 @@
   "rich-text#email-title": {
     "props": {
       "blockClass": ["contact-text", "email-title"],
-      "text": "Mandanos correo a jesusalvan2010@gmail.com"
+      "text": "Mandanos correo a kevinriverosg@gmail.com"
     }
   },
 
   "rich-text#phone-title": {
     "props": {
       "blockClass": ["contact-text", "phone-title"],
-      "text": "Llamanos al +51 917587966"
+      "text": "Llamanos al +51 931354958"
     }
   },
 

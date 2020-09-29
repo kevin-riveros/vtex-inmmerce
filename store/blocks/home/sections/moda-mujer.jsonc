@@ -62,7 +62,7 @@
     },
     "image#home--image--banner-tablet--moda-mujer": {
       "props": {
-        "src": "https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/d01fb18b-e570-4f90-96d8-c654e84c7cbb___029a98af55c015b69c55a1cae30de7a8.jpg",
+        "src": "https://i.ibb.co/3FnJNk7/baner2.png",
         "blockClass": [
           "home-banner",
           "one-banner"
@@ -71,7 +71,7 @@
     },
     "image#home--image--banner-phone--moda-mujer": {
       "props": {
-        "src": "https://realplaza.vtexassets.com/assets/vtex/assets-builder/realplaza.realplaza-theme/3.43.33/banner-moda-mujer/moda-mujer-mobile-x2___55fdb1b12f6017d9085607678813179f.jpg",
+        "src": "https://i.ibb.co/CsQfx2z/banervinomobile2.png",
         "blockClass": [
           "home-banner",
           "one-banner"

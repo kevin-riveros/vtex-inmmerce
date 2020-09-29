@@ -28,20 +28,26 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--second-search)
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     margin: 0px 5px;
+    
 }
-
+:global(.vtex-store-components-3-x-imageElement--home-banner){
+    object-fit: cover;
+    width: 100%;
+}
 /*DESKTOP MENU*/
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-    background: #f1f3f8;
+    background: #5F0F01;
+    color: white;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-search) {
-    background: white !important;
+    background: #5F0F01 !important;
+    color: white !important;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-link) {
-    color: #0000008c;
+    color: white;
 }
 
 /*MAIN SHELF*/
@@ -121,9 +127,9 @@
 :global(.vtex-rich-text-0-x-wrapper--shelf-link-text)
 :global(.vtex-rich-text-0-x-link) {
     font-size: 12px;
-    color: #7300e0;
+    color:  #5F0F01;
     text-decoration: none;
-    border-bottom: solid 0.5px #7300e0;
+    border-bottom: solid 0.5px  #5F0F01;
     letter-spacing: 1px;
 }
 
@@ -132,7 +138,10 @@
 :global(.vtex-add-to-cart-button-0-x-buttonText) {
     text-transform: capitalize !important;
     font-family: "Noto Sans JP", sans-serif;
-    color: #40a8c4;
+    color: #8bc34a;
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText):hover {
+    color: white!important;
 }
 
 /*SECTIONS*/
@@ -169,11 +178,11 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--container-col-1) {
-    background: #263238f5;
+    background: #5f0f01;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--container-col-3) {
-    background: #263238;
+    background: #1d0500;
 }
 
 /*PRODUCT PAGE*/

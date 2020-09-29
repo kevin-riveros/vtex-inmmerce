@@ -2,14 +2,14 @@
 :global(.vtex-shelf-1-x-arrowLeft) {
     background: transparent;
     left: -10px !important;
-    color: #40a8c4 !important;
+    color: #8bc34a !important;
 }
 
 :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf),
 :global(.vtex-shelf-1-x-arrowRight ) {
     background: transparent;
     right: -10px !important;
-    color: #40a8c4 !important;
+    color: #8bc34a !important;
 }
 
 :global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf),
@@ -25,5 +25,5 @@
 
 :global(.vtex-slider-layout-0-x-paginationDot--isActive),
 :global(.vtex-shelf-1-x-dot--isActive){
-    background: #40a8c4 !important;
+    background: #8bc34a !important;
 }

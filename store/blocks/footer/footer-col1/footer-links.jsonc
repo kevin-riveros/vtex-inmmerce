@@ -127,10 +127,9 @@
       "highlight": false,
       "blockClass": "test-link",
       "itemProps": {
-        "type": "external",
-        "href": "https://realplazago.pe/sellers",
+        "href": "/sellers",
         "noFollow": false,
-        "text": "Vende en Real Plaza Go"
+        "text": "Vende en vinos kevin"
       }
     }
   },
@@ -231,19 +230,19 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/RealPlaza"
+          "url": "https://www.facebook.com/vinos-kevin"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/Real_Plaza"
+          "url": "https://twitter.com/vinoskevin"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/RealPlazaPeru"
+          "url": "https://www.youtube.com/user/vinoskevin"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/realplaza"
+          "url": "https://www.instagram.com/vinoskevin"
         }
       ]
     }
